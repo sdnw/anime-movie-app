@@ -1,9 +1,9 @@
+import React from 'react';
 
+function App() {
+  return (
+    <h1>hi</h1>
+  );
+}
 
-// function App() {
-//   return (
-    
-//   );
-// }
-
-// export default App;
+export default App;
