@@ -9,4 +9,11 @@ function Navbar({ search, setSearch }) {
   );
 }
 
+{/* <form className="d-flex input-group w-auto">
+                     <input type="search" className="form-control" placeholder="Search Movie" aria-label="Search" />
+                     <button className="btn btn-outline-primary" type="button" data-mdb-ripple-color="dark" onChange={(event) => setSearch(event.target.value)} value={search}>
+                          Search
+                     </button>
+                 </form> */}
+
 export default Navbar;
