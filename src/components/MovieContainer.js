@@ -3,7 +3,7 @@ import Movie from "./Movie"
 
 function MovieContainer({ movies }) {
     const renderMovies = movies.map((movie) => (
-        <Movie movie={movie} />
+        <Movie movie={movie} key={movie.id}/>
     ))
     return (
         <ul className="cards">
