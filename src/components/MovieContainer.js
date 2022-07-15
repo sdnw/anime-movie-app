@@ -6,9 +6,11 @@ function MovieContainer({ movies }) {
         <Movie movie={movie} key={movie.id}/>
     ))
     return (
+        <div classname="movieContainer">
         <ul className="cards">
             {renderMovies}
         </ul>
+        </div>
     )
 }
 
