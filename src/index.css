@@ -88,7 +88,7 @@
   .card {
     width: 20rem;
     padding: 15px;
-    border: 2px solid #f2f6e9;
+    border: 10px solid #A134F6;
     border-radius: 10px;
     float: center;
     transition: color 300ms;
