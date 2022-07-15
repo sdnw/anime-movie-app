@@ -60,7 +60,7 @@ function CreateMovieForm(){
                 <label>Genre </label>
                 <input type="text" required value={genre} onChange={(e) => setGenre(e.target.value)}/>
                 </div>
-                <button type="submit" onClick={handleSubmit}> Add Movie! </button>
+                <button type="submit" onClick={handleSubmit} className="btn-primary"> Add Movie! </button>
             </form>
         </div>
 
