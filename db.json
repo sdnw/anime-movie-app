@@ -199,16 +199,6 @@
       "starring": "Toshio Furukawa, Yuka Imoto",
       "pictureUrl": "https://upload.wikimedia.org/wikipedia/en/2/26/Mindgame-2004-poster.jpg",
       "genre": "Adventure, Comedy"
-    },
-    {
-      "name": "movie",
-      "director": "director",
-      "year": "2022",
-      "description": "description",
-      "starring": "starring",
-      "pictureUrl": "https://m.media-amazon.com/images/I/61CpyjK0qaL.jpg",
-      "genre": "paprika",
-      "id": 21
     }
   ]
 }

@@ -22,7 +22,7 @@ function App() {
     useEffect(fetchMovies, [])
 
     const filteredMovies = movies.filter(
-        (movie) => { console.log(search)
+        (movie) => { 
         return (
         movie.name.toLowerCase().includes(search.toLowerCase()) ||
         movie.genre.toLowerCase().includes(search.toLowerCase())  ||

@@ -3,13 +3,18 @@ import Movie from "./Movie"
 
 function MovieContainer({ movies }) {
     const renderMovies = movies.map((movie) => (
-        <Movie movie={movie} key={movie.id}/>
+            <div className="col justify-content-center">
+                <Movie movie={movie} key={movie.id}/>
+             </div>
+       
     ))
     return (
-        <div classname="movieContainer">
-        <ul className="cards">
-            {renderMovies}
-        </ul>
+        <div className="movieContainer">
+                 <ul className="cards">
+                    <div className="row">    
+                        {renderMovies}  
+                    </div>
+                </ul>
         </div>
     )
 }

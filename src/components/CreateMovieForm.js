@@ -12,7 +12,9 @@ function CreateMovieForm(){
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        // console.log('hi');
         const movie = { name, director, year, description, starring, pictureUrl, genre }
+        console.log(movie)
 
         // console.log(movie)
         fetch('http://localhost:3000/movies', {
@@ -23,11 +25,12 @@ function CreateMovieForm(){
             console.log('new movie added')
         })
     }
+    console.log("name: ", name)
 
     return (
         <div className="group">
-           
-            <form className="form-group" onSubmit={handleSubmit}>
+            
+            <form className="form-group" >
             <h2> Create Movie Form </h2>
                 <div className="form">
                 <label>Name </label>
@@ -57,9 +60,10 @@ function CreateMovieForm(){
                 <label>Genre </label>
                 <input type="text" required value={genre} onChange={(e) => setGenre(e.target.value)}/>
                 </div>
-                <button type="button" className="btn-primary"> Add Movie! </button>
+                <button type="submit" onClick={handleSubmit}> Add Movie! </button>
             </form>
         </div>
+
     )
 }
 
