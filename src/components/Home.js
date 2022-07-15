@@ -7,7 +7,7 @@ function Home({ movies, search, setSearch }) {
     console.log(movies)
     return (
         <div className="About">
-            <h1>Home</h1>
+            {/* <h1>Home</h1> */}
             <Navbar setSearch={setSearch} search={search}/>
             <MovieContainer movies={movies || movies}/>
         </div>

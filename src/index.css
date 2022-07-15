@@ -11,17 +11,19 @@
   .searchTerm {
     text-align: center;
     width: 50%;
-    border: 3px solid #000000;
+    border: 3px solid #A134F6;
     padding: 2px;
     height: 3rem;
-    border-radius: 2px;
+    border-radius: 3px;
     outline: none;
     font-size: 1rem;
   }
 
-   .navbar {
+  .navbar {
     background:#fff;
-    padding: 10;
+    padding: 20;
+    height: 100px;
+    margin: auto
   }
   .nav-link,
   .navbar-brand {
@@ -33,7 +35,7 @@
     margin-right: 1em !important;
   }
   .nav-link:hover {
-    color: #000;
+    color: #A134F6;
   }
   .navbar-collapse {
     justify-content: flex-end;
@@ -65,6 +67,10 @@
     border-radius: 0.25rem;
     color: #fff;
   }
+  nav.navbar.navbar-expand-md {
+    background-color: #f2f6e9;
+    border-radius: 10px
+  }
   
   .fa-li {
     position: relative;
@@ -79,16 +85,18 @@
     color:#A134F6;
   } 
   .card {
-    width: 16rem;
-    padding: 10px;
+    width: 20rem;
+    padding: 15px;
     border: 2px solid #f2f6e9;
     border-radius: 10px;
     float: center;
     transition: color 300ms;
-    margin: 10px
+    margin: 10px;
+    float: center;
   }
   .card-columns {
     border-radius: 4px;
+    float: center;
   }
   .card-title {
     color: #fff
@@ -114,4 +122,76 @@
   .card-text {
     font: bold 
   } 
-
+div.ContactUs {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  background-color: #A134F6;
+  border-radius: 10px;
+  color:#fff
+}
+div.ContactUs a {
+  color:#fff;
+  font: bold;
+}
+button.btn-primary {
+  background-color: #fff;
+  border-color: #000;
+  border-radius: 20px;
+  color: #000;
+  margin: 10px
+}
+button.btn-primary:hover {
+  background-color: #FAFF00;
+  color:#A134F6;
+  border-color: #fff
+}
+div.kwcontactus {
+  margin: 10px;
+}
+div.sdcontactus {
+  margin: 10px;
+}
+div.ContactUs h1 {
+  margin: 10px;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  margin: 10px
+}
+div.group {
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #A134F6;
+  border-radius: 5px
+}
+div.group h2 {
+  color:#000;
+}
+form.form-group {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #f2f6e9;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px
+}
+div.form {
+  margin: 10px;
+  width: 100%;
+  text-align:center
+}
+div.form input {
+  margin: 5px;
+}
+div.form textarea {
+  margin: 10px;
+}
+div.form label {
+  margin: 10px;
+}

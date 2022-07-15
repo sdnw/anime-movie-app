@@ -12,13 +12,13 @@ function Movie({movie}) {
       <div className="card">
         <img src={pictureUrl} className="card-img-top" onClick={handleClick} />
         <div className="card-body">
-        <h1 className="card-title">{name}</h1>
-        <h3 className="card-subtitle">{director}</h3>
-        <p className="card-text">{showDescription ? description : starring}</p>
-       <p>{year}</p>
-        <p>{genre}</p>
-      </div>
-    </div> 
+         <h1 className="card-title">{name}</h1>
+            <h3 className="card-subtitle">{director}</h3>
+           <p className="card-text">{showDescription ? description : starring}</p>
+           <p>{year}</p>
+          <p>{genre}</p>
+        </div>
+       </div> 
       )
     }
     export default Movie
